@@ -1,0 +1,24 @@
+one:
+  title: Alice’s Adventures in Wonderland
+  author: Lewis Carroll
+  favorite: false
+
+two:
+  title: Don Quixote
+  author: Cervantes
+  favorite: false
+
+three:
+  title: Nineteen–Eighty Four
+  author: George Orwell
+  favorite: false
+
+four:
+  title: Of Mice and Men
+  author: John Steinbeck
+  favorite: false
+
+six:
+  title: To Kill a Mockingbird
+  author: Harper Lee
+  favorite: false
