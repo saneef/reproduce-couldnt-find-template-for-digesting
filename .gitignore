@@ -68,3 +68,6 @@ $RECYCLE.BIN/
 # Ignore bundler config.
 /.bundle
 /vendor/bundle
+
+# DB
+db/*.sqlite3
