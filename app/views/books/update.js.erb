@@ -1,0 +1,4 @@
+var el = document.querySelector('[data-id="<%= @book.id %>"]');
+
+el.innerHTML = '<%= j render partial: 'icons/icon', locals: { name: @book.favorite ? "favorite" : "favorite-border" } %>';
+

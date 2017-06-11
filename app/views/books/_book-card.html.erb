@@ -1,7 +1,7 @@
 <div class="card black-60 pv3 bt b--black-10">
-	<a class="fl db purple hover-light-purple" href="#">
+	<%= link_to(book_path(book.id), class: 'fl db purple hover-light-purple', remote: true, method: 'patch', data: { id: book.id }) do %>
 		<%= render partial: 'icons/icon', locals: { name: book.favorite ? "favorite" : "favorite-border" } %>
-	</a>
+	<% end %>
 	<h2 class="f3 lh-title ma0 ml4 pl2"><%= book.title %></h2>
 	<p class="f5 lh-copy ma0 mt1 ml4 pl2">By <%= book.author %></p>
 </div>
