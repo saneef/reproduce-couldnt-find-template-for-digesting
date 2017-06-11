@@ -1,0 +1,7 @@
+<div class="card black-60 pv3 bt b--black-10">
+	<a class="fl db purple hover-light-purple" href="#">
+		<%= render partial: 'icons/icon', locals: { name: book.favorite ? "favorite" : "favorite-border" } %>
+	</a>
+	<h2 class="f3 lh-title ma0 ml4 pl2"><%= book.title %></h2>
+	<p class="f5 lh-copy ma0 mt1 ml4 pl2">By <%= book.author %></p>
+</div>
