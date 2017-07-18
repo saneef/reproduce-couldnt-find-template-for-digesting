@@ -4,6 +4,7 @@
 
 ```bash
 $ bundle install
+$ rake db:migrate
 $ bundle exec rake db:fixtures:load FIXTURES=books
 $ bundle exec rails dev:cache # enable cache in development environment
 ```
